@@ -106,6 +106,71 @@ public class MainActivity extends AppCompatActivity {
     private boolean isValid() {
         boolean valid = true;
 
+
+        String nama = etNama.getText().toString();
+        String nama2 = etNama2.getText().toString();
+        String id = etID.getText().toString();
+        String asal = etAsal.getText().toString();
+        String tujuan = etTujuan.getText().toString();
+        String time = etTime.getText().toString();
+        String tgl = etTgl.getText().toString();
+
+        if (nama.isEmpty()) {
+            etNama.setError("Nama pemesan harap diisi!");
+            valid = false;
+        } else if (nama.length() < 3) {
+            etNama.setError("Nama minimal 3 karakter");
+            valid = false;
+        } else {
+            etNama.setError(null);
+        }
+
+        if (nama2.isEmpty()) {
+            etNama2.setError("Nama penumpang harap diisi!");
+            valid = false;
+        } else if (nama2.length() < 3) {
+            etNama2.setError("Nama minimal 3 karakter");
+            valid = false;
+        } else {
+            etNama2.setError(null);
+        }
+
+        if (id.isEmpty()) {
+            etID.setError("NO ID tidak boleh kosong!");
+            valid = false;
+        } else {
+            etID.setError(null);
+        }
+
+        if (asal.isEmpty()) {
+            etAsal.setError("Stasiun asal harap diisi!");
+            valid = false;
+        } else {
+            etAsal.setError(null);
+        }
+
+        if (tujuan.isEmpty()) {
+            etTujuan.setError("Tujuan harap diisi!");
+            valid = false;
+        } else {
+            etTujuan.setError(null);
+        }
+
+        if (time.isEmpty()) {
+            etTime.setError("Waktu keberangkatan tidak boleh kosong!");
+            valid = false;
+        } else {
+            etTime.setError(null);
+        }
+
+        if (tgl.isEmpty()) {
+            etTgl.setError("Tanggal keberangkatan tidak boleh kosong!");
+            valid = false;
+        } else {
+            etTgl.setError(null);
+        }
+
+
         return valid;
     }
 
