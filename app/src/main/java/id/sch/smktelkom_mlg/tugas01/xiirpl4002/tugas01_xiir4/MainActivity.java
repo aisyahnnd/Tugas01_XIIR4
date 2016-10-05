@@ -2,6 +2,7 @@ package id.sch.smktelkom_mlg.tugas01.xiirpl4002.tugas01_xiir4;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -18,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        rbD = (RadioButton) findViewById(R.id.radiButtonDewasa);
-        rbB = (RadioButton) findViewById(R.id.radiButtonBayi);
+        rbD = (RadioButton) findViewById(R.id.radioButtonDewasa);
+        rbB = (RadioButton) findViewById(R.id.radioButtonBayi);
 
         cbPergi = (CheckBox) findViewById(R.id.checkBoxPergi);
         cbPulang = (CheckBox) findViewById(R.id.checkBoxPulang);
