@@ -7,13 +7,16 @@ untuk mencetak daftar tiket pemesanan
 
 ## Screenshot
 ![screenshoot](IMG_7773.JPG)
+
 ![screenshoot1](IMG_7774.JPG)
+
 ![screenshoot2](IMG_7775.JPG)
+
 ![screenshoot3](IMG_7776.JPG)
 
 ## Link SDK
-http://github.com - automatic!
-[GitHub](http://github.com)
+https://drive.google.com/open?id=0B7NyfiitjaGick1MNEV1TjllOWs - automatic!
+[Tugas01_XIIR4](https://drive.google.com/open?id=0B7NyfiitjaGick1MNEV1TjllOWs)
 
 ## Identitas
 * Nama      : Aisyah Nanda Kartina
